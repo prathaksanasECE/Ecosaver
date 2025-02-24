@@ -1,0 +1,25 @@
+a{
+ text-decoration: none;
+ margin:5px;
+ font-size: x-large;
+ font-weight: 100;
+}
+.HoldingConatainer{
+    display: flex;
+}
+.SidePanel{
+    flex-direction: column;
+    margin: 2px;
+    background-color: white;
+    margin-left:5px;
+    border-radius: 5px;
+}
+.SidePanel>li{
+    margin: 20px 2px;
+    cursor: pointer;
+    font-style: oblique;
+    letter-spacing: 1px;
+}
+.details{
+    flex-direction: column;
+}

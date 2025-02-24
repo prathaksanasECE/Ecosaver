@@ -1,0 +1,97 @@
+li {
+  list-style: none;
+  font-size: larger;
+  padding: 0px 30px 0px 8px;
+  margin-top: 10px;
+}
+
+ol {
+  display: flex;
+  justify-content: space-between;
+  justify-self: flex-start;
+}
+
+.HeaderElement {
+  background-image: linear-gradient(to right, #ffc2c2, rgb(145, 243, 145));
+  padding: 5px;
+}
+
+.searchBox {
+  margin-top: 0px;
+  width: 410px;
+  border-style: none;
+  border-radius: 10px 0px 0px 10px;
+  padding: 10px;
+  padding-left: 30px;
+
+}
+
+.search {
+  display: flex;
+  height: 40px;
+}
+
+.search>button {
+  margin: 0px;
+  padding: 15px 18px;
+  position: relative;
+  border-style: none;
+  background-color: rgb(143, 143, 230);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.login,
+.signup {
+  padding: 2px;
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  margin-top: 15px;
+}
+.club{
+  margin-top:13px;
+}
+.profile_Page{
+
+  margin:10px 20px 10px 5px;
+  height: 0px;
+}
+.profile_Page svg{
+  font-size: 35px;
+}
+
+.icon {
+  height: 1.2em;
+  color: rgb(13, 13, 13);
+  margin: 0px;
+}
+
+.StoreName {
+  color: rgb(104, 107, 142);
+  margin: 5px 4px;
+  font-size: 190%;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+
+/* SideBar-->> css */
+
+.sidebarComponent {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 15%;
+  background-color: #ffc2c2;
+  border-radius: 0px 0px 20px 20px;
+  position: absolute;
+}
+
+.sidebarComponent>a {
+  margin: 15px 0px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: larger;
+  color: rgb(42, 40, 40);
+}
